@@ -35,6 +35,17 @@ html.no-js .site {
 }
 
 
+
+
+
+
+html, body, body.menu-active {
+	overflow-x: hidden !important;
+	width: 100% !important;
+}
+
+
+
 .site {
 	-moz-transition: all 200ms ease-in;
 	-webkit-transition: all 200ms ease-in;
@@ -80,7 +91,7 @@ body.menu-active .site {
 
 
 nav.primary-navigation {
-	background: #003b76;
+	background: #5D90C2;
 	color: #fff;
 	position: fixed;
 	top: 0;
@@ -95,7 +106,6 @@ nav.primary-navigation {
 	width: 100%;
 	max-width: 80%;
 	height: 100%;
-	padding: 6px 20px;
 	overflow-y: auto;
 	z-index: 9999;
 	-moz-transition: all 200ms ease-in;
@@ -134,4 +144,19 @@ body.menu-active .site .menu-trigger {
 	-moz-transition: all 200ms ease-in;
 	-webkit-transition: all 200ms ease-in;
 	transition: all 200ms ease-in;
+}
+
+
+
+
+/* for the demo */
+.menu-trigger {
+	background: #5D90C2;
+	color: #fff;
+	cursor: pointer;
+	font-weight: 600;
+	padding: .5em 1em;
+}
+.wrapper {
+	padding: 3em;
 }

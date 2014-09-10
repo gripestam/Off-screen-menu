@@ -8,11 +8,6 @@
 
 })(jQuery);
 
-
-
-
-
-
 (function($) {
 
 	$.fn.toggleMenu = function() {
